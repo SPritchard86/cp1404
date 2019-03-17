@@ -1,0 +1,9 @@
+When will a ValueError occur?
+when an invalid input is entered (e.g. a string)
+
+When will a ZeroDivisionError occur?
+when the denominator is chosen to be 0
+
+Could you change the code to avoid the possibility of a ZeroDivisionError?
+Yes, using a while loop for the denominator before evaluation.
+

@@ -1,0 +1,18 @@
+What did you see on line 1?
+saw: 8, 8, 9, 9, 15, 18, 19
+Smallest possible: 5
+Largest possible: 20
+
+
+What did you see on line 2?
+3, 7, 9, 7, 5, 3, 5
+smallest possible: 3
+largest possible: 9
+Could not produce a 4 (random within the range specified, odd numbers steps of 2.)
+
+What did you see on line 3?
+2.6324436867714, 4.170034007224869, 5.058907842705061, 3.4092242550861456
+smallest possible: 2.5
+largest possible: 5.5
+produces a random float number between(including) the set limits.
+
