@@ -18,13 +18,4 @@ def main():
 
         print(" ".join("{:2}".format(number) for number in random_numbers))
 
-
-        #[random.randint(0, 45) for number in random_numbers if not in random_numbers]
-
-
-
-
-
-
-
 main()
