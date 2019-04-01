@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43dbdc8d-281c-4d41-9d6e-e2fa3ae79570" name="Default Changelist" comment="Create quick picks program.">
-      <change afterPath="$PROJECT_DIR$/prac_05/state_names.py" afterDir="false" />
+    <list default="true" id="43dbdc8d-281c-4d41-9d6e-e2fa3ae79570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prac_05/word_occurrences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_04/quick_picks.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_04/quick_picks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +18,14 @@
     <SUITE FILE_PATH="coverage/cp1404Practicals$list_exercises.coverage" NAME="list_exercises Coverage Results" MODIFIED="1553941116963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_04" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$password_entry.coverage" NAME="password_entry Coverage Results" MODIFIED="1553040630343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$lists_warmup.coverage" NAME="lists_warmup Coverage Results" MODIFIED="1553940077827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_04" />
+    <SUITE FILE_PATH="coverage/cp1404Practicals$word_occurrences.coverage" NAME="word_occurrences Coverage Results" MODIFIED="1554082737997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$sales_bonus.coverage" NAME="sales_bonus Coverage Results" MODIFIED="1553041572632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$exceptions_demo.coverage" NAME="exceptions_demo Coverage Results" MODIFIED="1552535240644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_02" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$temperatures.coverage" NAME="temperatures Coverage Results" MODIFIED="1553042822979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$string_formatting_examples.coverage" NAME="string_formatting_examples Coverage Results" MODIFIED="1553039242475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_02" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$state_names.coverage" NAME="state_names Coverage Results" MODIFIED="1554079247497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$quick_picks.coverage" NAME="quick_picks Coverage Results" MODIFIED="1554002202955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_04" />
+    <SUITE FILE_PATH="coverage/cp1404Practicals$hex_colours.coverage" NAME="hex_colours Coverage Results" MODIFIED="1554080036571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$capitalist_conrad.coverage" NAME="capitalist_conrad Coverage Results" MODIFIED="1552534787344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_02" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$files.coverage" NAME="files Coverage Results" MODIFIED="1552537191962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_02" />
     <SUITE FILE_PATH="coverage/cp1404Practicals$broken_score.coverage" NAME="broken_score Coverage Results" MODIFIED="1553049623402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_03" />
@@ -77,11 +78,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prac_05/state_names.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prac_05/hex_colours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prac_05/word_occurrences.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -126,6 +145,8 @@
         <option value="$PROJECT_DIR$/prac_04/list_comprehensions.py" />
         <option value="$PROJECT_DIR$/prac_04/quick_picks.py" />
         <option value="$PROJECT_DIR$/prac_05/state_names.py" />
+        <option value="$PROJECT_DIR$/prac_05/hex_colours.py" />
+        <option value="$PROJECT_DIR$/prac_05/word_occurrences.py" />
       </list>
     </option>
   </component>
@@ -169,6 +190,11 @@
               <item name="cp1404Practicals" type="462c0819:PsiDirectoryNode" />
               <item name="prac_04" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cp1404Practicals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cp1404Practicals" type="462c0819:PsiDirectoryNode" />
+              <item name="prac_05" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,7 +225,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.state_names">
+  <component name="RunManager" selected="Python.word_occurrences">
+    <configuration name="hex_colours" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cp1404Practicals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_05/hex_colours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cp1404Practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,28 +262,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_04/list_comprehensions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="list_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cp1404Practicals" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_04/list_exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="total_income" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word_occurrences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cp1404Practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,12 +322,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_04/total_income.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_05/word_occurrences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.word_occurrences" />
+        <item itemvalue="Python.hex_colours" />
         <item itemvalue="Python.state_names" />
         <item itemvalue="Python.quick_picks" />
         <item itemvalue="Python.list_comprehensions" />
-        <item itemvalue="Python.list_exercises" />
-        <item itemvalue="Python.total_income" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +363,7 @@
       <workItem from="1553049353115" duration="495000" />
       <workItem from="1553939458526" duration="2316000" />
       <workItem from="1554000573535" duration="1855000" />
-      <workItem from="1554074727983" duration="1404000" />
+      <workItem from="1554074727983" duration="4965000" />
     </task>
     <task id="LOCAL-00001" summary="Add password check program">
       <created>1553039530094</created>
@@ -423,11 +449,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554002244021</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update file to PEP standards. Add for loop to print all states.">
+      <created>1554079369704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554079369704</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create program to pull hex IDs of colours from dictionary.">
+      <created>1554080167388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554080167388</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17261000" />
+    <option name="totallyTimeSpent" value="20822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,7 +512,9 @@
     <MESSAGE value="Create a program to pull interesting information out of list of numbers.&#10;Create horrible security checker." />
     <MESSAGE value="Complete to-do's in list_comprehensions." />
     <MESSAGE value="Create quick picks program." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create quick picks program." />
+    <MESSAGE value="Update file to PEP standards. Add for loop to print all states." />
+    <MESSAGE value="create program to pull hex IDs of colours from dictionary." />
+    <option name="LAST_COMMIT_MESSAGE" value="create program to pull hex IDs of colours from dictionary." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,6 +700,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_05/hex_colours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_05/word_occurrences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
