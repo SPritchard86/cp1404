@@ -14,7 +14,6 @@ def main():
         i += 1
         name = input("Name: ")
 
-    i = 0
     print("These are my guitars:")
     for i, guitar in enumerate(guitars):
         if guitars[i].is_vintage():
